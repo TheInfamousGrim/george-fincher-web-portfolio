@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 119.91 65" style="enable-background:new 0 0 119.91 65;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EB5E28;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:#CC4613;}
+	.st2{fill:#92320E;}
+	.st3{fill:#EB5E28;}
+	.st4{fill:#571E08;}
+</style>
+<path id="bottom-border" class="st0" d="M2.5,62.5h114.91"/>
+<g id="f-initial">
+	<path class="st1" d="M117.41,21.21v5.48l-5.33,2.94v-5.66L117.41,21.21z"/>
+	<path class="st1" d="M106.7,32.43v5.59l-5.38,2.72v11.19l-5.31,2.99V21.15l5.31,2.8v11.45L106.7,32.43z"/>
+	<path class="st2" d="M112.08,24.06v5.58l-10.76-5.67l-5.31-2.8v33.76l-5.42-2.99V12.72L112.08,24.06z"/>
+	<path class="st3" d="M117.41,21.21l-5.33,2.76v0.09L90.59,12.72l5.46-2.85L117.41,21.21z"/>
+	<path class="st3" d="M106.7,32.43l-5.38,2.99v-5.82L106.7,32.43z"/>
+</g>
+<g id="logo-shape">
+	<path class="st1" d="M67.5,33.84l-13,22.5l-23.2-40.25l2.72-4.8l10.34,17.79l2.74-4.75l1.97-3.41l5.48-0.03l-7.6,12.94l7.55,12.84
+		l2.75-4.69l1.97-3.41h-3.93l-2.79-4.79L67.5,33.84z"/>
+	<path class="st3" d="M65.53,20.9l1.97,3.41l-2.77,4.78L57.24,16l-14.9,0.11l2.78,4.82l1.97,3.41l-2.74,4.75L34.01,11.29l46.42,0.06
+		l2.77,4.77l-20.5-0.03L65.53,20.9z"/>
+	<path class="st2" d="M83.2,16.12L60.01,56.32l-5.51,0.02l13-22.5l7.46-12.91l-5.5-0.03h-3.93l-2.83-4.8L83.2,16.12z"/>
+	<path class="st4" d="M74.96,20.93L67.5,33.84l-15.01-0.05l2.79-4.71h9.46l2.77-4.78l1.97-3.41L74.96,20.93z"/>
+	<path class="st3" d="M55.27,38.59l1.97,3.41l-2.75,4.69l-7.55-12.84l7.6-12.94l2.7,4.78l-1.97,3.41l-2.79,4.71L55.27,38.59z"/>
+	<path class="st2" d="M64.73,29.08H59.2l-1.97-3.41l-2.7-4.78l-5.48,0.03h-3.93l-2.78-4.82L57.24,16L64.73,29.08z"/>
+</g>
+<g id="g-initial">
+	<path class="st2" d="M18.86,22.61v6.68l-5.5-3.25l-5.5-3.25v32.03L2.5,51.25V13.42L18.86,22.61z"/>
+	<path class="st3" d="M24.27,32.16v12.76L7.86,54.82V22.79l5.5,3.25v18.9l5.5-3.22v-6.4L24.27,32.16z"/>
+	<path class="st1" d="M24.27,19.53v6.57l-5.42,3.19v-6.57L24.27,19.53z"/>
+	<path class="st3" d="M18.86,22.72v-0.11L2.5,13.42l5.41-3.23l16.36,9.34L18.86,22.72z"/>
+	<path class="st1" d="M24.27,32.16l-5.42,3.15l-5.42-2.88l5.42-3.15L24.27,32.16z"/>
+	<path class="st2" d="M18.86,35.32v6.4l-5.5-3.3v-5.94l0.08-0.05L18.86,35.32z"/>
+	<path class="st4" d="M18.86,41.72l-5.5,3.22v-6.52L18.86,41.72z"/>
+</g>
+<path id="top-border" class="st0" d="M2.5,2.5h114.91"/>
+</svg>
