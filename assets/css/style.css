@@ -66,6 +66,7 @@ h3 {
   margin: var(--page-margin);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .svg-initial-logo {
@@ -82,8 +83,31 @@ h3 {
   fill: var(--floral-white);
 }
 
+/* navigation */
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: var(--flame);
+  border-radius: var(--content-radius);
+  padding: 2rem;
+  font-family: var(--poppins-bold-family);
+  text-transform: uppercase;
+}
+
+.nav-item {
+  margin: 0px 1vw;
+}
+
+/* navigation hover and focus */
+.nav-item:hover a,
+.nav-item:focus a {
+  transition: color var(--transition-hover) ease;
+  color: var(--eerie-black);
+}
+
 /* burger menu */
-.svg-burger-menu {
+/* .svg-burger-menu {
   height: 60px;
 }
 
@@ -101,7 +125,7 @@ h3 {
   right: 25px;
   cursor: pointer;
   z-index: 999;
-}
+} */
 
 /* hero img */
 main {
@@ -110,7 +134,7 @@ main {
 
 .hero-img-container,
 .headshot-img {
-  width: 100%;
+  width: 80%;
   border-radius: var(--content-radius);
 }
 
@@ -165,7 +189,7 @@ main {
 /* featured portfolio section */
 
 .featured-portfolio {
-  margin: 0px 5vw;
+  margin: 0px 2vw;
 }
 
 .semantic-html-img {
