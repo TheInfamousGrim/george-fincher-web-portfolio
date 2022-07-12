@@ -11,6 +11,7 @@
   --poppins-bold-family: "Poppins", sans-serif;
   --subheading-font-size: 2.5rem;
   --flex-sub-card: 1 1 0;
+  --transition-hover: 0.75s;
 }
 
 html {
@@ -22,7 +23,7 @@ html {
 /* text link stylings */
 a {
   text-decoration: none;
-  color: var(--pale-silver);
+  color: var(--floral-white);
 }
 
 /* general font stylings */
@@ -49,6 +50,16 @@ h3 {
 .flame-text {
   color: var(--flame);
 }
+
+/* fade in for sections */
+/* .fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+
+.fade-in.appear {
+  opacity: 1;
+} */
 
 /* header and navigation */
 .site-header {
@@ -274,6 +285,10 @@ main {
 
 /* e-mail link hover state */
 
+.email-link {
+  color: var(--pale-silver);
+}
+
 .email-link:hover,
 .email-link:focus {
   transition: color 1s ease;
@@ -289,13 +304,19 @@ main {
   width: 100%;
 }
 
-.github-svg {
-  transition: fill 1s;
+#github-svg path,
+#linkedin-svg path,
+#twitter-svg path,
+#spotify-svg path {
+  transition: fill var(--transition-hover);
 }
 
 /* social logos hover & focus states */
-.github-svg:hover {
-  background-color: var(--black-olive);
+#github-svg:hover path,
+#linkedin-svg:hover path,
+#twitter-svg:hover path,
+#spotify-svg:hover path {
+  fill: var(--pale-silver);
 }
 
 .github-link-container,
