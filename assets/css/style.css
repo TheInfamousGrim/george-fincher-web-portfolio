@@ -25,11 +25,6 @@ a {
   color: var(--pale-silver);
 }
 
-/* general text link hover */
-a:hover {
-  color: #9a9489;
-}
-
 /* general font stylings */
 h1,
 h2,
@@ -153,6 +148,10 @@ main {
 
 /* featured portfolio section */
 
+.featured-portfolio {
+  margin: 0px 5vw;
+}
+
 .semantic-html-img {
   height: 100%;
   width: 100%;
@@ -200,8 +199,19 @@ main {
 }
 
 /* cards title bubbles */
-.main-card-title-container {
+.general-card-title {
   background-color: var(--flame);
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+.portfolio-cards-general-container:hover .general-card-title:hover {
+  background-color: var(--floral-white);
+  color: var(--black-olive);
+  cursor: pointer;
+}
+
+.main-card-title-container {
   border-radius: var(--content-radius);
   width: fit-content;
   padding: 5px;
@@ -215,7 +225,6 @@ main {
 .third-card-title-container,
 .fourth-card-title-container,
 .fifth-card-title-container {
-  background-color: var(--flame);
   border-radius: var(--content-radius);
   width: fit-content;
   padding: 5px;
@@ -264,11 +273,14 @@ main {
 }
 
 /* e-mail link hover state */
-.email-link {
-  text-decoration: none;
+
+.email-link:hover,
+.email-link:focus {
+  transition: color 1s ease;
   color: var(--floral-white);
 }
 
+/* socials logos */
 .socials-logos {
   display: flex;
   flex-direction: row;
@@ -277,13 +289,21 @@ main {
   width: 100%;
 }
 
+.github-svg {
+  transition: fill 1s;
+}
+
 /* social logos hover & focus states */
+.github-svg:hover {
+  background-color: var(--black-olive);
+}
 
 .github-link-container,
 .linkedin-link-container,
 .twitter-link-container,
 .spotify-link-container {
   max-width: fit-content;
+  margin: 0px 10px;
 }
 
 /* return to homepage logo link */
