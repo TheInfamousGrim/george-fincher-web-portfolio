@@ -73,22 +73,27 @@ h3 {
 }
 
 /* logo with initials hover state */
-.svg-initial-logo:hover,
-.svg-initial-logo:focus {
+.svg-initial-logo path {
+  transition: fill var(--transition-hover) ease;
 }
 
+.svg-initial-logo:hover path,
+.svg-initial-logo:focus path {
+  fill: var(--floral-white);
+}
+
+/* burger menu */
 .svg-burger-menu {
   height: 60px;
 }
 
 .nav-toggle #background-burger {
-  transition: fill 1s;
+  transition: fill var(--transition-hover) ease;
 }
 
-/* burger menu */
 .nav-toggle:hover #background-burger,
 .nav-toggle:focus #background-burger {
-  fill: var(--pale-silver);
+  fill: var(--floral-white);
 }
 #burger-group {
   position: fixed;
@@ -313,10 +318,14 @@ main {
 
 /* social logos hover & focus states */
 #github-svg:hover path,
+#github-svg:focus path,
 #linkedin-svg:hover path,
+#linkedin-svg:focus path,
 #twitter-svg:hover path,
-#spotify-svg:hover path {
-  fill: var(--pale-silver);
+#twitter-svg:focus path,
+#spotify-svg:hover path,
+#spotify-svg:focus path {
+  fill: var(--floral-white);
 }
 
 .github-link-container,
