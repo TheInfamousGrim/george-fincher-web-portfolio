@@ -265,6 +265,8 @@ main {
   cursor: pointer;
 }
 
+/* general card stylings */
+
 .main-card-title-container {
   border-radius: var(--content-radius);
   width: fit-content;
