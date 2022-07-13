@@ -18,6 +18,7 @@ html {
   background-color: var(--eerie-black);
   font-family: var(--space-mono-family);
   color: var(--floral-white);
+  scroll-behavior: smooth;
 }
 
 /* text link stylings */
