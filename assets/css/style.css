@@ -51,16 +51,6 @@ h3 {
   color: var(--flame);
 }
 
-/* fade in for sections */
-/* .fade-in {
-  opacity: 0;
-  transition: opacity 250ms ease;
-}
-
-.fade-in.appear {
-  opacity: 1;
-} */
-
 /* header and navigation */
 .site-header {
   margin: var(--page-margin);
@@ -71,6 +61,17 @@ h3 {
 
 .svg-initial-logo {
   height: 60px;
+}
+
+/* navigation for screens below 600px */
+@media only screen and (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+  }
+  .navigation-menu {
+    font-size: 0.75rem;
+    justify-content: space-around;
+  }
 }
 
 /* logo with initials hover state */
@@ -132,10 +133,9 @@ main {
   margin: var(--page-margin);
 }
 
-.hero-img-container,
-.headshot-img {
-  width: 80%;
+.hero-img-container .headshot-img {
   border-radius: var(--content-radius);
+  width: 100%;
 }
 
 .hero-img-container {
@@ -184,6 +184,13 @@ main {
 
 .about-me-text-container {
   max-width: 767px;
+}
+
+/* about me margin below 900px */
+@media only screen and (max-width: 900px) {
+  .about-me-text-container {
+    margin: 0px 5vw;
+  }
 }
 
 /* featured portfolio section */
@@ -241,11 +248,18 @@ main {
 /* cards title bubbles */
 .general-card-title {
   background-color: var(--flame);
-  transition: background-color 0.5s ease;
-  transition: color 0.5s ease;
 }
 
-.portfolio-cards-general-container:hover .general-card-title:hover {
+/* cards hover and focus states */
+.portfolio-cards-general-container:hover #general-card-title-id h2,
+.portfolio-cards-general-container:focus #general-card-title-id h2 {
+  transition: color var(--transition-hover) ease;
+  color: var(--black-olive);
+}
+
+.portfolio-cards-general-container:hover #general-card-title-id,
+.portfolio-cards-general-container:focus #general-card-title-id {
+  transition: background-color var(--transition-hover) ease;
   background-color: var(--floral-white);
   color: var(--black-olive);
   cursor: pointer;
@@ -279,7 +293,7 @@ main {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1.75fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "main"
       "main"
