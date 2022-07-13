@@ -29,7 +29,8 @@ SO THAT I can review samples of their work and assess whether they're a good can
 5. [Features](#features)
 6. [Badges](#badges)
 7. [Credits](#credits)
-8. [Feedback](#feedback)
+8. [License](#licensegit)
+9. [Feedback](#feedback)
 
 ## Screenshot
 
@@ -65,6 +66,10 @@ The technology used for the development of this site was:
 This website was made with the help of the:
 
 - [University of Birmingham Coding Bootcamp](https://www.birmingham.ac.uk/postgraduate/courses/cpd/coding-boot-camp.aspx)
+
+## License
+
+[MIT License](/LICENSE.md)
 
 ## Feedback
 
