@@ -18,6 +18,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 - I've also learned more about how to use grid.
 - I've learned how to use inline SVGs and how to style them effectively.
 - I've learned more about using figma to help wire-frame and design the sites I make.
+- I also learned how to effectively add a favicon that works across multiple browsers and operating systems
 
 ## Table of Contents
 
@@ -36,7 +37,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Usage
 
-If you would like to view this project please follow [this link]()
+If you would like to view this project please follow [this link](https://theinfamousgrim.github.io/george-fincher-web-portfolio/)
 
 ## Technology
 
