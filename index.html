@@ -1,478 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <title>George Web Development Portfolio</title>
-  </head>
-  <body>
-    <header id="masthead" class="site-header">
-      <div class="logo-container">
-        <a
-          class="logo-initials"
-          href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/"
-        >
-          <svg
-            version="1.1"
-            id="Logo"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 119.91 65"
-            enable-background="new 0 0 119.91 65"
-            xml:space="preserve"
-            class="svg-initial-logo"
-          >
-            <path
-              id="bottom-border"
-              fill="none"
-              stroke="#EB5E28"
-              stroke-width="5"
-              stroke-linecap="round"
-              stroke-miterlimit="10"
-              d="
-           M2.5,62.5h114.91"
-            />
-            <g id="f-initial">
-              <path
-                id="right-square-top"
-                fill="#CC4613"
-                d="M117.41,21.21v5.48l-5.33,2.94v-5.66L117.41,21.21z"
-              />
-              <path
-                id="right-face-t"
-                fill="#CC4613"
-                d="M106.7,32.43v5.59l-5.38,2.72v11.19l-5.31,2.99V21.15l5.31,2.8v11.45L106.7,32.43z"
-              />
-              <path
-                id="left-face-l"
-                fill="#92320E"
-                d="M112.08,24.06v5.58l-10.76-5.67l-5.31-2.8v33.76l-5.42-2.99V12.72L112.08,24.06z"
-              />
-              <path
-                id="top-face-upper-arm"
-                fill="#EB5E28"
-                d="M117.41,21.21l-5.33,2.76v0.09L90.59,12.72l5.46-2.85L117.41,21.21z"
-              />
-              <path
-                id="triangle"
-                fill="#EB5E28"
-                d="M106.7,32.43l-5.38,2.99v-5.82L106.7,32.43z"
-              />
-            </g>
-            <g id="logo-shape">
-              <path
-                id="left-outer-triangle"
-                fill="#CC4613"
-                d="M67.5,33.84l-13,22.5l-23.2-40.25l2.72-4.8l10.34,17.79l2.74-4.75l1.97-3.41
-               l5.48-0.03l-7.6,12.94l7.55,12.84l2.75-4.69l1.97-3.41h-3.93l-2.79-4.79L67.5,33.84z"
-              />
-              <path
-                id="top-outer-triangle"
-                fill="#EB5E28"
-                d="M65.53,20.9l1.97,3.41l-2.77,4.78L57.24,16l-14.9,0.11l2.78,4.82l1.97,3.41
-               l-2.74,4.75L34.01,11.29l46.42,0.06l2.77,4.77l-20.5-0.03L65.53,20.9z"
-              />
-              <path
-                id="right-outer-triangle"
-                fill="#92320E"
-                d="M83.2,16.12L60.01,56.32l-5.51,0.02l13-22.5l7.46-12.91l-5.5-0.03h-3.93
-               l-2.83-4.8L83.2,16.12z"
-              />
-              <path
-                id="inner-right-triangle"
-                fill="#571E08"
-                d="M74.96,20.93L67.5,33.84l-15.01-0.05l2.79-4.71h9.46l2.77-4.78l1.97-3.41
-               L74.96,20.93z"
-              />
-              <path
-                id="inner-left-triangle"
-                fill="#EB5E28"
-                d="M55.27,38.59l1.97,3.41l-2.75,4.69l-7.55-12.84l7.6-12.94l2.7,4.78l-1.97,3.41
-               l-2.79,4.71L55.27,38.59z"
-              />
-              <path
-                id="inner-top-triangle"
-                fill="#92320E"
-                d="M64.73,29.08H59.2l-1.97-3.41l-2.7-4.78l-5.48,0.03h-3.93l-2.78-4.82L57.24,16
-               L64.73,29.08z"
-              />
-            </g>
-            <g id="g-initial">
-              <path
-                id="left-face-l_00000020388288951161095510000009614882834651835839_"
-                fill="#92320E"
-                d="M18.86,22.61v6.68l-5.5-3.25
-               l-5.5-3.25v32.03L2.5,51.25V13.42L18.86,22.61z"
-              />
-              <path
-                id="right-face-curly-l"
-                fill="#EB5E28"
-                d="M24.27,32.16v12.76L7.86,54.82V22.79l5.5,3.25v18.9l5.5-3.22v-6.4L24.27,32.16z"
-              />
-              <path
-                id="top-square"
-                fill="#CC4613"
-                d="M24.27,19.53v6.57l-5.42,3.19v-6.57L24.27,19.53z"
-              />
-              <path
-                id="top-rectangle"
-                fill="#EB5E28"
-                d="M18.86,22.72v-0.11L2.5,13.42l5.41-3.23l16.36,9.34L18.86,22.72z"
-              />
-              <path
-                id="tip-square"
-                fill="#CC4613"
-                d="M24.27,32.16l-5.42,3.15l-5.42-2.88l5.42-3.15L24.27,32.16z"
-              />
-              <path
-                id="left-inner-tip-square"
-                fill="#92320E"
-                d="M18.86,35.32v6.4l-5.5-3.3v-5.94l0.08-0.05L18.86,35.32z"
-              />
-              <path
-                id="dark-triangle"
-                fill="#571E08"
-                d="M18.86,41.72l-5.5,3.22v-6.52L18.86,41.72z"
-              />
-            </g>
-            <path
-              id="top-border"
-              fill="none"
-              stroke="#EB5E28"
-              stroke-width="5"
-              stroke-linecap="round"
-              stroke-miterlimit="10"
-              d="M2.5,2.5
-           h114.91"
-            />
-          </svg>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Space+Mono&display=swap"
+    rel="stylesheet" />
+  <title>George Web Development Portfolio</title>
+</head>
+
+<body>
+  <header id="masthead" class="site-header">
+    <div class="logo-container">
+      <a class="logo-initials" href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/">
+        <svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" viewBox="0 0 119.91 65" enable-background="new 0 0 119.91 65" xml:space="preserve"
+          class="svg-initial-logo">
+          <path id="bottom-border" fill="none" stroke="#EB5E28" stroke-width="5" stroke-linecap="round"
+            stroke-miterlimit="10" d="
+           M2.5,62.5h114.91" />
+          <g id="f-initial">
+            <path id="right-square-top" fill="#CC4613" d="M117.41,21.21v5.48l-5.33,2.94v-5.66L117.41,21.21z" />
+            <path id="right-face-t" fill="#CC4613"
+              d="M106.7,32.43v5.59l-5.38,2.72v11.19l-5.31,2.99V21.15l5.31,2.8v11.45L106.7,32.43z" />
+            <path id="left-face-l" fill="#92320E"
+              d="M112.08,24.06v5.58l-10.76-5.67l-5.31-2.8v33.76l-5.42-2.99V12.72L112.08,24.06z" />
+            <path id="top-face-upper-arm" fill="#EB5E28"
+              d="M117.41,21.21l-5.33,2.76v0.09L90.59,12.72l5.46-2.85L117.41,21.21z" />
+            <path id="triangle" fill="#EB5E28" d="M106.7,32.43l-5.38,2.99v-5.82L106.7,32.43z" />
+          </g>
+          <g id="logo-shape">
+            <path id="left-outer-triangle" fill="#CC4613" d="M67.5,33.84l-13,22.5l-23.2-40.25l2.72-4.8l10.34,17.79l2.74-4.75l1.97-3.41
+               l5.48-0.03l-7.6,12.94l7.55,12.84l2.75-4.69l1.97-3.41h-3.93l-2.79-4.79L67.5,33.84z" />
+            <path id="top-outer-triangle" fill="#EB5E28" d="M65.53,20.9l1.97,3.41l-2.77,4.78L57.24,16l-14.9,0.11l2.78,4.82l1.97,3.41
+               l-2.74,4.75L34.01,11.29l46.42,0.06l2.77,4.77l-20.5-0.03L65.53,20.9z" />
+            <path id="right-outer-triangle" fill="#92320E" d="M83.2,16.12L60.01,56.32l-5.51,0.02l13-22.5l7.46-12.91l-5.5-0.03h-3.93
+               l-2.83-4.8L83.2,16.12z" />
+            <path id="inner-right-triangle" fill="#571E08" d="M74.96,20.93L67.5,33.84l-15.01-0.05l2.79-4.71h9.46l2.77-4.78l1.97-3.41
+               L74.96,20.93z" />
+            <path id="inner-left-triangle" fill="#EB5E28" d="M55.27,38.59l1.97,3.41l-2.75,4.69l-7.55-12.84l7.6-12.94l2.7,4.78l-1.97,3.41
+               l-2.79,4.71L55.27,38.59z" />
+            <path id="inner-top-triangle" fill="#92320E" d="M64.73,29.08H59.2l-1.97-3.41l-2.7-4.78l-5.48,0.03h-3.93l-2.78-4.82L57.24,16
+               L64.73,29.08z" />
+          </g>
+          <g id="g-initial">
+            <path id="left-face-l_00000020388288951161095510000009614882834651835839_" fill="#92320E" d="M18.86,22.61v6.68l-5.5-3.25
+               l-5.5-3.25v32.03L2.5,51.25V13.42L18.86,22.61z" />
+            <path id="right-face-curly-l" fill="#EB5E28"
+              d="M24.27,32.16v12.76L7.86,54.82V22.79l5.5,3.25v18.9l5.5-3.22v-6.4L24.27,32.16z" />
+            <path id="top-square" fill="#CC4613" d="M24.27,19.53v6.57l-5.42,3.19v-6.57L24.27,19.53z" />
+            <path id="top-rectangle" fill="#EB5E28"
+              d="M18.86,22.72v-0.11L2.5,13.42l5.41-3.23l16.36,9.34L18.86,22.72z" />
+            <path id="tip-square" fill="#CC4613" d="M24.27,32.16l-5.42,3.15l-5.42-2.88l5.42-3.15L24.27,32.16z" />
+            <path id="left-inner-tip-square" fill="#92320E"
+              d="M18.86,35.32v6.4l-5.5-3.3v-5.94l0.08-0.05L18.86,35.32z" />
+            <path id="dark-triangle" fill="#571E08" d="M18.86,41.72l-5.5,3.22v-6.52L18.86,41.72z" />
+          </g>
+          <path id="top-border" fill="none" stroke="#EB5E28" stroke-width="5" stroke-linecap="round"
+            stroke-miterlimit="10" d="M2.5,2.5
+           h114.91" />
+        </svg>
+      </a>
+    </div>
+    <div class="navigation">
+      <nav>
+        <ul class="navigation-menu">
+          <li class="home-item nav-item">
+            <a href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/" id="home-link">home</a>
+          </li>
+          <li class="about-me-item nav-item">
+            <a href="#about-me-section" id="about-me-link">about me</a>
+          </li>
+          <li class="about-me-item nav-item">
+            <a href="#featured-projects" id="about-me-link">My Projects</a>
+          </li>
+          <li class="my-work nav-item">
+            <a href="#featured-portfolio" id="my-work-link">my work</a>
+          </li>
+          <li class="contact-me-item nav-item">
+            <a href="#contact-me-section" id="contact-me-link">contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main-content">
+    <section class="hero-img-section fade-in" id="hero-img-section">
+      <div class="hero-img-container">
+        <img src="assets/images/Headshot_2020.jpg" alt="a head shot showing a curly haired man from the shoulders up."
+          class="headshot-img" />
+        <h1 class="hero-img-title">george fincher web development</h1>
+      </div>
+    </section>
+    <section class="about-me-section" id="about-me-section">
+      <div class="slogan-bubble-container">
+        <h2 class="slogan-text">
+          elegant <span class="pale-silver-text">sites</span>
+          <span class="black-olive-text">programmed</span> with
+          <span class="eerie-black-text">ease</span>
+        </h2>
+      </div>
+      <div class="about-me-content-container">
+        <div class="about-me-title-container">
+          <h2 class="about-me-title-text">
+            about <span class="flame-text">me</span>
+          </h2>
+        </div>
+        <div class="about-me-text-container">
+          <p>
+            I have accrued a number of skills over the years. I went to
+            university initially to study a masters in physics & came out with
+            a bachelors in film and drama and then went on achieve an MFA in
+            acting at Guildford School of Acting.
+          </p>
+          <p>
+            The pandemic made me rethink the path I was treading, so I got
+            three separate jobs in the midst of the pandemic & with
+            determination ventured back into the realm of programming.
+          </p>
+          <p>
+            I began my journey into programming in 2020, with my first attempt
+            at learning python. I gave up after a few months due to the 80
+            hour work weeks and lack of free time.
+          </p>
+          <p>
+            In 2021 I realized I needed a goal, so I swapped languages to
+            HTML, CSS & Javascript so that I could build web applications &
+            fuel my learning with the dream of becoming a web developer.
+          </p>
+          <p>
+            2022 came around and I was still no closer to becoming a web
+            developer. So I did what I thought was the best thing, I enrolled
+            at a boot camp at the University of Birmingham and that lead me to
+            this moment
+          </p>
+          <p>
+            I hope you enjoy my work and if you’d like to get in touch with
+            me, feel free to email me or get in contact through one of my
+            socials.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="featured-projects" id="featured-projects">
+      <div class="work-title-container">
+        <h2 class="project-title-text" id="my-projects-id">
+          <span class="flame-text">My</span> Projects
+        </h2>
+      </div>
+      <div class="project-cards-container">
+        <a href="https://theinfamousgrim.github.io/ZenFoci-Lifestyle-App/">
+          <img src="./assets/images/Screenshot-ZenFoci-Lifestyle.png"
+            alt="The homepage of zenfoci a lifestyle app designed to help promote healthy habits and a healthy life"
+            class="semantic-html-img general-card-img" />
+          <div class="main-card-title-container general-card-title" id="general-card-title-id">
+            <h2 class="main-card-heading" id="general-card-heading-id">
+              <span class="black-olive-text">semantic </span>html
+            </h2>
+            <p class="main-card-tech-descriptor">HTML, CSS</p>
+          </div>
         </a>
       </div>
-      <div class="navigation">
-        <nav>
-          <ul class="navigation-menu">
-            <li class="home-item nav-item">
-              <a
-                href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/"
-                id="home-link"
-                >home</a
-              >
-            </li>
-            <li class="about-me-item nav-item">
-              <a href="#about-me-section" id="about-me-link">about me</a>
-            </li>
-            <li class="my-work nav-item">
-              <a href="#featured-portfolio" id="my-work-link">my work</a>
-            </li>
-            <li class="contact-me-item nav-item">
-              <a href="#contact-me-section" id="contact-me-link">contact me</a>
-            </li>
-          </ul>
-        </nav>
+    </section>
+    <section class="featured-portfolio" id="featured-portfolio">
+      <div class="work-title-container">
+        <h2 class="work-title-text" id="work-title-id">
+          my <span class="flame-text">work</span>
+        </h2>
       </div>
-    </header>
-    <main class="main-content">
-      <section class="hero-img-section fade-in" id="hero-img-section">
-        <div class="hero-img-container">
-          <img
-            src="assets/images/Headshot_2020.jpg"
-            alt="a head shot showing a curly haired man from the shoulders up."
-            class="headshot-img"
-          />
-          <h1 class="hero-img-title">george fincher web development</h1>
-        </div>
-      </section>
-      <section class="about-me-section" id="about-me-section">
-        <div class="slogan-bubble-container">
-          <h2 class="slogan-text">
-            elegant <span class="pale-silver-text">sites</span>
-            <span class="black-olive-text">programmed</span> with
-            <span class="eerie-black-text">ease</span>
-          </h2>
-        </div>
-        <div class="about-me-content-container">
-          <div class="about-me-title-container">
-            <h2 class="about-me-title-text">
-              about <span class="flame-text">me</span>
-            </h2>
-          </div>
-          <div class="about-me-text-container">
-            <p>
-              I have accrued a number of skills over the years. I went to
-              university initially to study a masters in physics & came out with
-              a bachelors in film and drama and then went on achieve an MFA in
-              acting at Guildford School of Acting.
-            </p>
-            <p>
-              The pandemic made me rethink the path I was treading, so I got
-              three separate jobs in the midst of the pandemic & with
-              determination ventured back into the realm of programming.
-            </p>
-            <p>
-              I began my journey into programming in 2020, with my first attempt
-              at learning python. I gave up after a few months due to the 80
-              hour work weeks and lack of free time.
-            </p>
-            <p>
-              In 2021 I realized I needed a goal, so I swapped languages to
-              HTML, CSS & Javascript so that I could build web applications &
-              fuel my learning with the dream of becoming a web developer.
-            </p>
-            <p>
-              2022 came around and I was still no closer to becoming a web
-              developer. So I did what I thought was the best thing, I enrolled
-              at a boot camp at the University of Birmingham and that lead me to
-              this moment
-            </p>
-            <p>
-              I hope you enjoy my work and if you’d like to get in touch with
-              me, feel free to email me or get in contact through one of my
-              socials.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="featured-portfolio" id="featured-portfolio">
-        <div class="work-title-container">
-          <h2 class="work-title-text" id="work-title-id">
-            my <span class="flame-text">work</span>
-          </h2>
-        </div>
-        <div class="portfolio-cards-container">
-          <div class="main-card-container portfolio-cards-general-container">
-            <a
-              href="https://github.com/TheInfamousGrim/Code-Refactor-Horiseon"
-              class="main-card-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="assets/images/semantic-refactor-site-image.jpg"
-                alt="an seo site with a header, a large hero image of a boardroom just below with content below that"
-                class="semantic-html-img general-card-img"
-              />
-              <div
-                class="main-card-title-container general-card-title"
-                id="general-card-title-id"
-              >
-                <h2 class="main-card-heading" id="general-card-heading-id">
-                  <span class="black-olive-text">semantic </span>html
-                </h2>
-                <p class="main-card-tech-descriptor">HTML, CSS</p>
-              </div>
-            </a>
-          </div>
-          <div class="second-card-container portfolio-cards-general-container">
-            <a href="" class="second-card-link">
-              <img
-                src="assets/images/password-generator-image.jpg"
-                alt="an iphone being held by a hand with a locked screen showing"
-                class="password-generator-img general-card-img"
-              />
-              <div
-                class="second-card-title-container general-card-title"
-                id="general-card-title-id"
-              >
-                <h2 class="second-card-heading">
-                  password <span class="pale-silver-text">generator</span>
-                </h2>
-                <p class="second-card-tech-descriptor">HTML, CSS, Javascript</p>
-              </div>
-            </a>
-          </div>
-          <div
-            class="third-card-container portfolio-cards-general-container"
-            id="general-card-title-id"
-          >
-            <a href="" class="third-card-link">
-              <img
-                src="assets/images/code-quiz-image.jpg"
-                alt="two rubix cubes stack on top of each other and are unaligned"
-                class="code-quiz-img general-card-img"
-              />
-              <div
-                class="third-card-title-container general-card-title"
-                id="general-card-title-id"
-              >
-                <h2 class="third-card-heading">
-                  code <span class="eerie-black-text">quiz</span>
-                </h2>
-                <p class="third-card-tech-descriptor">REACT, Javascript, CSS</p>
-              </div>
-            </a>
-          </div>
-          <div class="fourth-card-container portfolio-cards-general-container">
-            <a href="" class="fourth-card-link">
-              <img
-                src="assets/images/day-planner-image.jpg"
-                alt="a granite desk with an assortment of items such as a planner on a sheet of paper, a pencil and an empty mug of coffee"
-                class="daily-planner-img general-card-img"
-              />
-              <div
-                class="fourth-card-title-container general-card-title"
-                id="general-card-title-id"
-              >
-                <h2 class="fourth-card-heading">
-                  <span class="eerie-black-text">daily</span> planner
-                </h2>
-                <p class="fourth-card-tech-descriptor">MERN Stack</p>
-              </div>
-            </a>
-          </div>
-          <div class="fifth-card-container portfolio-cards-general-container">
-            <a href="" class="fifth-card-link">
-              <img
-                src="assets/images/weather-dashboard-image.jpg"
-                alt="A city with a sky split in two, stormy clouds with a lightning bolt on the left and blue sky on the right"
-                class="weather-dashboard-img general-card-img"
-              />
-              <div
-                class="fifth-card-title-container general-card-title"
-                id="general-card-title-id"
-              >
-                <h2 class="fith-card-heading">
-                  weather <span class="pale-silver-text">dashboard</span>
-                </h2>
-                <p class="fifth-card-tech-descriptor">HTML, CSS</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="site-footer" id="contact-me-section">
-      <div class="footer-content-container">
-        <div class="contact-section">
-          <div id="contact-me-link">
-            <h3>contact info</h3>
-          </div>
-          <div class="email-link-container">
-            <a href="mailto:finchergeorge1@gmail.com" class="email-link"
-              >finchergeorge1@gmail.com</a
-            >
-          </div>
-          <div class="socials-logos">
-            <div class="github-link-container">
-              <a
-                href="https://github.com/TheInfamousGrim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg
-                  width="54"
-                  height="53"
-                  viewBox="0 0 54 53"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="github-svg"
-                >
-                  <path
-                    d="M26.9999 0C20.5887 0.000267533 14.3868 2.29619 9.50391 6.47697C4.621 10.6577 1.37572 16.4506 0.348731 22.8189C-0.678255 29.1872 0.580078 35.7155 3.89857 41.2356C7.21707 46.7557 12.3792 50.9075 18.4612 52.948C19.8112 53.1858 20.3175 52.3707 20.3175 51.6574C20.3175 51.0121 20.2837 48.8724 20.2837 46.597C13.5 47.8536 11.745 44.9329 11.205 43.4045C10.6058 41.9181 9.65595 40.6009 8.43751 39.5667C7.49252 39.0572 6.14253 37.8006 8.40374 37.7667C9.26716 37.861 10.0953 38.1633 10.8179 38.6481C11.5405 39.1329 12.1364 39.7858 12.555 40.5516C12.9243 41.2191 13.4208 41.8068 14.0162 42.2809C14.6116 42.7551 15.294 43.1063 16.0245 43.3145C16.755 43.5228 17.5192 43.5839 18.2732 43.4944C19.0272 43.4049 19.7563 43.1666 20.4186 42.7931C20.5355 41.4118 21.1472 40.1204 22.1399 39.1592C16.1325 38.4799 9.855 36.1364 9.855 25.7439C9.81706 23.0436 10.8072 20.431 12.6225 18.4419C11.7971 16.095 11.8936 13.5194 12.8925 11.2418C12.8925 11.2418 15.1536 10.5285 20.3174 14.0267C24.7354 12.804 29.3994 12.804 33.8173 14.0267C38.981 10.4946 41.2423 11.2418 41.2423 11.2418C42.2413 13.5194 42.3379 16.095 41.5123 18.4419C43.333 20.4276 44.324 23.0424 44.2798 25.7439C44.2798 36.1704 37.9685 38.4799 31.9611 39.1592C32.6054 39.8164 33.1017 40.6055 33.4162 41.4728C33.7306 42.3401 33.8559 43.2653 33.7836 44.1857C33.7836 47.8198 33.7498 50.7405 33.7498 51.6575C33.7498 52.3708 34.2561 53.2198 35.606 52.9481C41.6774 50.8909 46.8247 46.7295 50.129 41.2065C53.4334 35.6836 54.6798 29.1586 53.6457 22.7965C52.6116 16.4343 49.3643 10.649 44.4835 6.47334C39.6027 2.29765 33.4062 0.00335527 26.9999 0Z"
-                    fill="#252422"
-                  />
-                </svg>
-              </a>
+      <div class="portfolio-cards-container">
+        <div class="main-card-container portfolio-cards-general-container">
+          <a href="https://theinfamousgrim.github.io/Code-Refactor-Horiseon/" class="main-card-link" target="_blank"
+            rel="noopener noreferrer">
+            <img src="assets/images/semantic-refactor-site-image.jpg"
+              alt="an seo site with a header, a large hero image of a boardroom just below with content below that"
+              class="semantic-html-img general-card-img" />
+            <div class="main-card-title-container general-card-title" id="general-card-title-id">
+              <h2 class="main-card-heading" id="general-card-heading-id">
+                <span class="black-olive-text">semantic </span>html
+              </h2>
+              <p class="main-card-tech-descriptor">HTML, CSS</p>
             </div>
-            <div class="linkedin-link-container">
-              <a
-                href="https://www.linkedin.com/in/george-fincher-aa7869214/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg
-                  width="53"
-                  height="53"
-                  viewBox="0 0 53 53"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="linkedin-svg"
-                >
-                  <path
-                    d="M48.7858 0.000370546H3.89545C3.39084 -0.0066376 2.88979 0.0858252 2.42092 0.272479C1.95204 0.459132 1.52453 0.73632 1.1628 1.08821C0.801062 1.4401 0.512189 1.85981 0.312674 2.32335C0.11316 2.7869 0.00691215 3.28521 0 3.78982V49.2102C0.00691215 49.7148 0.11316 50.2131 0.312674 50.6766C0.512189 51.1402 0.801062 51.5599 1.1628 51.9118C1.52453 52.2637 1.95204 52.5409 2.42092 52.7275C2.88979 52.9142 3.39084 53.0066 3.89545 52.9996H48.7858C49.2904 53.0066 49.7915 52.9142 50.2603 52.7275C50.7292 52.5409 51.1567 52.2637 51.5185 51.9118C51.8802 51.5599 52.1691 51.1402 52.3686 50.6766C52.5681 50.2131 52.6744 49.7148 52.6813 49.2102V3.78982C52.6744 3.28521 52.5681 2.7869 52.3686 2.32335C52.1691 1.85981 51.8802 1.4401 51.5185 1.08821C51.1567 0.73632 50.7292 0.459132 50.2603 0.272479C49.7915 0.0858252 49.2904 -0.0066376 48.7858 0.000370546V0.000370546ZM15.9793 44.3607H8.02939V20.5111H15.9793V44.3607ZM12.0043 17.1721C10.9079 17.1721 9.85646 16.7366 9.08119 15.9613C8.30593 15.1861 7.87039 14.1346 7.87039 13.0382C7.87039 11.9418 8.30593 10.8903 9.08119 10.115C9.85646 9.33979 10.9079 8.90425 12.0043 8.90425C12.5865 8.83822 13.1761 8.89591 13.7344 9.07353C14.2928 9.25116 14.8073 9.54472 15.2443 9.93498C15.6814 10.3252 16.031 10.8034 16.2704 11.3382C16.5098 11.873 16.6336 12.4523 16.6336 13.0382C16.6336 13.6241 16.5098 14.2034 16.2704 14.7382C16.031 15.273 15.6814 15.7511 15.2443 16.1414C14.8073 16.5317 14.2928 16.8252 13.7344 17.0028C13.1761 17.1805 12.5865 17.2382 12.0043 17.1721V17.1721ZM44.6519 44.3607H36.702V31.5614C36.702 28.355 35.5625 26.2615 32.674 26.2615C31.7801 26.268 30.9097 26.5484 30.18 27.0649C29.4503 27.5814 28.8965 28.3091 28.5931 29.15C28.3857 29.7728 28.2959 30.4288 28.3281 31.0844V44.3342H20.3782C20.3782 44.3342 20.3782 22.6576 20.3782 20.4846H28.3281V23.85C29.0503 22.5969 30.1007 21.5645 31.3661 20.8641C32.6316 20.1636 34.0641 19.8217 35.5095 19.8751C40.8094 19.8751 44.6519 23.2935 44.6519 30.6339V44.3607Z"
-                    fill="#252422"
-                  />
-                </svg>
-              </a>
-            </div>
-            <div class="twitter-link-container">
-              <a
-                href="https://twitter.com/VaporWhy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg
-                  width="66"
-                  height="53"
-                  viewBox="0 0 66 53"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="twitter-svg"
-                >
-                  <path
-                    d="M65.1057 6.34976C62.6588 7.41129 60.0711 8.11302 57.4232 8.43314C60.2168 6.76422 62.3103 4.13871 63.3153 1.04364C60.69 2.60639 57.8163 3.70743 54.819 4.29893C52.8155 2.12626 50.1475 0.680018 47.2335 0.187022C44.3195 -0.305974 41.3243 0.182161 38.7177 1.57487C36.111 2.96758 34.0403 5.18609 32.8303 7.88246C31.6204 10.5788 31.3396 13.6005 32.032 16.4737C26.724 16.2052 21.5319 14.8231 16.7929 12.4172C12.0539 10.0112 7.87403 6.63522 4.52484 2.50852C3.35013 4.5599 2.73287 6.88304 2.73444 9.24696C2.73027 11.4423 3.26901 13.6045 4.30269 15.5413C5.33636 17.478 6.8329 19.1291 8.65905 20.3475C6.53653 20.2897 4.45937 19.7202 2.60423 18.6873V18.85C2.62013 21.9259 3.69798 24.9019 5.65545 27.2746C7.61292 29.6473 10.3298 31.271 13.3467 31.8712C12.1854 32.2246 10.9797 32.4109 9.76585 32.4246C8.92563 32.4148 8.0875 32.3386 7.25928 32.1967C8.11838 34.8426 9.7809 37.155 12.0155 38.812C14.2501 40.4689 16.9456 41.3882 19.727 41.4417C15.0303 45.1373 9.2316 47.1543 3.25528 47.171C2.16716 47.1746 1.07989 47.1093 0 46.9757C6.1018 50.9154 13.2126 53.0068 20.4757 52.998C25.4879 53.05 30.4601 52.1028 35.1021 50.2117C39.7441 48.3206 43.9627 45.5235 47.5115 41.9837C51.0604 38.4439 53.8683 34.2325 55.7713 29.5954C57.6743 24.9583 58.6343 19.9885 58.5951 14.9763C58.5951 14.4229 58.5951 13.8369 58.5951 13.251C61.1495 11.346 63.3526 9.01071 65.1057 6.34976Z"
-                    fill="#252422"
-                  />
-                </svg>
-              </a>
-            </div>
-            <div class="spotify-link-container">
-              <a
-                href="https://open.spotify.com/user/11133422812"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg
-                  width="53"
-                  height="53"
-                  viewBox="0 0 53 53"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  id="spotify-svg"
-                >
-                  <path
-                    d="M26.5 0C11.8886 0 0 11.8886 0 26.5C0 41.1114 11.8886 53 26.5 53C41.1114 53 53 41.1114 53 26.5C53 11.8886 41.1114 0 26.5 0ZM38.6569 38.2528C38.5322 38.4309 38.3736 38.5827 38.1902 38.6995C38.0068 38.8162 37.8021 38.8956 37.588 38.9332C37.3738 38.9707 37.1543 38.9656 36.9421 38.9182C36.7299 38.8708 36.5292 38.782 36.3514 38.6569C30.1404 34.291 19.8088 34.0492 12.8326 35.6756C12.6206 35.7248 12.4009 35.7317 12.1862 35.6959C11.9714 35.6602 11.7658 35.5825 11.5811 35.4673C11.3964 35.3521 11.2362 35.2017 11.1096 35.0246C10.9831 34.8475 10.8926 34.6472 10.8435 34.4351C10.7943 34.223 10.7874 34.0034 10.8231 33.7886C10.8589 33.5739 10.9366 33.3683 11.0518 33.1836C11.167 32.9989 11.3174 32.8387 11.4945 32.7121C11.6716 32.5855 11.8719 32.4951 12.084 32.4459C19.7524 30.6704 31.2137 30.9951 38.2528 35.9473C38.6118 36.1996 38.8561 36.5841 38.9318 37.0164C39.0076 37.4487 38.9087 37.8933 38.6569 38.2528ZM41.8899 31.7901C41.7629 31.9667 41.6023 32.1166 41.4174 32.2312C41.2325 32.3458 41.0268 32.4228 40.812 32.4579C40.5973 32.4929 40.3778 32.4854 40.166 32.4356C39.9542 32.3858 39.7543 32.2948 39.5778 32.1677C32.3731 26.9969 23.5221 25.7116 11.7097 28.1231C11.4965 28.1668 11.2769 28.1681 11.0632 28.127C10.8495 28.0858 10.6461 28.0029 10.4645 27.8831C10.2828 27.7633 10.1266 27.6089 10.0046 27.4287C9.88265 27.2485 9.79737 27.0461 9.75366 26.8329C9.70994 26.6198 9.70863 26.4001 9.74981 26.1864C9.79099 25.9728 9.87385 25.7693 9.99366 25.5877C10.1135 25.406 10.2679 25.2498 10.4481 25.1278C10.6283 25.0059 10.8307 24.9206 11.0439 24.8769C23.8202 22.2699 33.4993 23.7274 41.5089 29.4746C41.8657 29.7318 42.1061 30.1198 42.1775 30.5537C42.2489 30.9876 42.1455 31.4322 41.8899 31.7901ZM45.156 23.1113C45.0339 23.2915 44.8774 23.4459 44.6956 23.5656C44.5137 23.6853 44.3101 23.768 44.0962 23.8089C43.8824 23.8498 43.6626 23.8482 43.4494 23.8041C43.2363 23.76 43.0339 23.6743 42.8538 23.5519C33.7213 17.3542 19.8386 17.3244 10.8518 20.5044C10.6464 20.5768 10.4289 20.6081 10.2114 20.5964C9.99403 20.5848 9.78105 20.5304 9.58465 20.4364C9.38825 20.3425 9.21228 20.2107 9.0668 20.0487C8.92131 19.8868 8.80915 19.6977 8.73672 19.4924C8.66429 19.2871 8.63301 19.0695 8.64467 18.8521C8.65633 18.6347 8.7107 18.4217 8.80467 18.2253C8.89864 18.0289 9.03037 17.8529 9.19234 17.7075C9.35432 17.562 9.54337 17.4498 9.74869 17.3774C19.5239 13.9224 34.6719 13.9953 44.7188 20.8091C45.0808 21.0574 45.3299 21.4388 45.4118 21.8701C45.4937 22.3014 45.4018 22.7476 45.156 23.1113Z"
-                    fill="#252422"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="phone-number-container">
-            <p class="number-text">Mobile: +44 7741 249 222</p>
-          </div>
+          </a>
         </div>
-        <div class="white-logo-link-container">
-          <a
-            href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/"
-            class="home-link"
-          >
-            <img
-              src="assets/logos/white-logo.svg"
-              alt="an inverted escher like triangle made up of prisms"
-              class="white-logo-svg"
-            />
+        <div class="second-card-container portfolio-cards-general-container">
+          <a href="https://theinfamousgrim.github.io/parakeet-password-generator/" class="second-card-link">
+            <img src="assets/images/password-generator-image.jpg"
+              alt="an iphone being held by a hand with a locked screen showing"
+              class="password-generator-img general-card-img" />
+            <div class="second-card-title-container general-card-title" id="general-card-title-id">
+              <h2 class="second-card-heading">
+                password <span class="pale-silver-text">generator</span>
+              </h2>
+              <p class="second-card-tech-descriptor">HTML, CSS, Javascript</p>
+            </div>
+          </a>
+        </div>
+        <div class="third-card-container portfolio-cards-general-container" id="general-card-title-id">
+          <a href="https://theinfamousgrim.github.io/code-quiz-vanilla-js/" class="third-card-link">
+            <img src="assets/images/code-quiz-image.jpg"
+              alt="two rubix cubes stack on top of each other and are unaligned"
+              class="code-quiz-img general-card-img" />
+            <div class="third-card-title-container general-card-title" id="general-card-title-id">
+              <h2 class="third-card-heading">
+                code <span class="eerie-black-text">quiz</span>
+              </h2>
+              <p class="third-card-tech-descriptor">REACT, Javascript, CSS</p>
+            </div>
+          </a>
+        </div>
+        <div class="fourth-card-container portfolio-cards-general-container">
+          <a href="https://theinfamousgrim.github.io/personal-work-day-scheduler/" class="fourth-card-link">
+            <img src="assets/images/day-planner-image.jpg"
+              alt="a granite desk with an assortment of items such as a planner on a sheet of paper, a pencil and an empty mug of coffee"
+              class="daily-planner-img general-card-img" />
+            <div class="fourth-card-title-container general-card-title" id="general-card-title-id">
+              <h2 class="fourth-card-heading">
+                <span class="eerie-black-text">daily</span> planner
+              </h2>
+              <p class="fourth-card-tech-descriptor">MERN Stack</p>
+            </div>
+          </a>
+        </div>
+        <div class="fifth-card-container portfolio-cards-general-container">
+          <a href="https://theinfamousgrim.github.io/cumulo-weather-dashboard/" class="fifth-card-link">
+            <img src="assets/images/weather-dashboard-image.jpg"
+              alt="A city with a sky split in two, stormy clouds with a lightning bolt on the left and blue sky on the right"
+              class="weather-dashboard-img general-card-img" />
+            <div class="fifth-card-title-container general-card-title" id="general-card-title-id">
+              <h2 class="fith-card-heading">
+                weather <span class="pale-silver-text">dashboard</span>
+              </h2>
+              <p class="fifth-card-tech-descriptor">HTML, CSS</p>
+            </div>
           </a>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer class="site-footer" id="contact-me-section">
+    <div class="footer-content-container">
+      <div class="contact-section">
+        <div id="contact-me-link">
+          <h3>contact info</h3>
+        </div>
+        <div class="email-link-container">
+          <a href="mailto:finchergeorge1@gmail.com" class="email-link">finchergeorge1@gmail.com</a>
+        </div>
+        <div class="socials-logos">
+          <div class="github-link-container">
+            <a href="https://github.com/TheInfamousGrim" target="_blank" rel="noopener noreferrer">
+              <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" id="github-svg">
+                <path
+                  d="M26.9999 0C20.5887 0.000267533 14.3868 2.29619 9.50391 6.47697C4.621 10.6577 1.37572 16.4506 0.348731 22.8189C-0.678255 29.1872 0.580078 35.7155 3.89857 41.2356C7.21707 46.7557 12.3792 50.9075 18.4612 52.948C19.8112 53.1858 20.3175 52.3707 20.3175 51.6574C20.3175 51.0121 20.2837 48.8724 20.2837 46.597C13.5 47.8536 11.745 44.9329 11.205 43.4045C10.6058 41.9181 9.65595 40.6009 8.43751 39.5667C7.49252 39.0572 6.14253 37.8006 8.40374 37.7667C9.26716 37.861 10.0953 38.1633 10.8179 38.6481C11.5405 39.1329 12.1364 39.7858 12.555 40.5516C12.9243 41.2191 13.4208 41.8068 14.0162 42.2809C14.6116 42.7551 15.294 43.1063 16.0245 43.3145C16.755 43.5228 17.5192 43.5839 18.2732 43.4944C19.0272 43.4049 19.7563 43.1666 20.4186 42.7931C20.5355 41.4118 21.1472 40.1204 22.1399 39.1592C16.1325 38.4799 9.855 36.1364 9.855 25.7439C9.81706 23.0436 10.8072 20.431 12.6225 18.4419C11.7971 16.095 11.8936 13.5194 12.8925 11.2418C12.8925 11.2418 15.1536 10.5285 20.3174 14.0267C24.7354 12.804 29.3994 12.804 33.8173 14.0267C38.981 10.4946 41.2423 11.2418 41.2423 11.2418C42.2413 13.5194 42.3379 16.095 41.5123 18.4419C43.333 20.4276 44.324 23.0424 44.2798 25.7439C44.2798 36.1704 37.9685 38.4799 31.9611 39.1592C32.6054 39.8164 33.1017 40.6055 33.4162 41.4728C33.7306 42.3401 33.8559 43.2653 33.7836 44.1857C33.7836 47.8198 33.7498 50.7405 33.7498 51.6575C33.7498 52.3708 34.2561 53.2198 35.606 52.9481C41.6774 50.8909 46.8247 46.7295 50.129 41.2065C53.4334 35.6836 54.6798 29.1586 53.6457 22.7965C52.6116 16.4343 49.3643 10.649 44.4835 6.47334C39.6027 2.29765 33.4062 0.00335527 26.9999 0Z"
+                  fill="#252422" />
+              </svg>
+            </a>
+          </div>
+          <div class="linkedin-link-container">
+            <a href="https://www.linkedin.com/in/george-fincher-aa7869214/" target="_blank" rel="noopener noreferrer">
+              <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" id="linkedin-svg">
+                <path
+                  d="M48.7858 0.000370546H3.89545C3.39084 -0.0066376 2.88979 0.0858252 2.42092 0.272479C1.95204 0.459132 1.52453 0.73632 1.1628 1.08821C0.801062 1.4401 0.512189 1.85981 0.312674 2.32335C0.11316 2.7869 0.00691215 3.28521 0 3.78982V49.2102C0.00691215 49.7148 0.11316 50.2131 0.312674 50.6766C0.512189 51.1402 0.801062 51.5599 1.1628 51.9118C1.52453 52.2637 1.95204 52.5409 2.42092 52.7275C2.88979 52.9142 3.39084 53.0066 3.89545 52.9996H48.7858C49.2904 53.0066 49.7915 52.9142 50.2603 52.7275C50.7292 52.5409 51.1567 52.2637 51.5185 51.9118C51.8802 51.5599 52.1691 51.1402 52.3686 50.6766C52.5681 50.2131 52.6744 49.7148 52.6813 49.2102V3.78982C52.6744 3.28521 52.5681 2.7869 52.3686 2.32335C52.1691 1.85981 51.8802 1.4401 51.5185 1.08821C51.1567 0.73632 50.7292 0.459132 50.2603 0.272479C49.7915 0.0858252 49.2904 -0.0066376 48.7858 0.000370546V0.000370546ZM15.9793 44.3607H8.02939V20.5111H15.9793V44.3607ZM12.0043 17.1721C10.9079 17.1721 9.85646 16.7366 9.08119 15.9613C8.30593 15.1861 7.87039 14.1346 7.87039 13.0382C7.87039 11.9418 8.30593 10.8903 9.08119 10.115C9.85646 9.33979 10.9079 8.90425 12.0043 8.90425C12.5865 8.83822 13.1761 8.89591 13.7344 9.07353C14.2928 9.25116 14.8073 9.54472 15.2443 9.93498C15.6814 10.3252 16.031 10.8034 16.2704 11.3382C16.5098 11.873 16.6336 12.4523 16.6336 13.0382C16.6336 13.6241 16.5098 14.2034 16.2704 14.7382C16.031 15.273 15.6814 15.7511 15.2443 16.1414C14.8073 16.5317 14.2928 16.8252 13.7344 17.0028C13.1761 17.1805 12.5865 17.2382 12.0043 17.1721V17.1721ZM44.6519 44.3607H36.702V31.5614C36.702 28.355 35.5625 26.2615 32.674 26.2615C31.7801 26.268 30.9097 26.5484 30.18 27.0649C29.4503 27.5814 28.8965 28.3091 28.5931 29.15C28.3857 29.7728 28.2959 30.4288 28.3281 31.0844V44.3342H20.3782C20.3782 44.3342 20.3782 22.6576 20.3782 20.4846H28.3281V23.85C29.0503 22.5969 30.1007 21.5645 31.3661 20.8641C32.6316 20.1636 34.0641 19.8217 35.5095 19.8751C40.8094 19.8751 44.6519 23.2935 44.6519 30.6339V44.3607Z"
+                  fill="#252422" />
+              </svg>
+            </a>
+          </div>
+          <div class="twitter-link-container">
+            <a href="https://twitter.com/VaporWhy" target="_blank" rel="noopener noreferrer">
+              <svg width="66" height="53" viewBox="0 0 66 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" id="twitter-svg">
+                <path
+                  d="M65.1057 6.34976C62.6588 7.41129 60.0711 8.11302 57.4232 8.43314C60.2168 6.76422 62.3103 4.13871 63.3153 1.04364C60.69 2.60639 57.8163 3.70743 54.819 4.29893C52.8155 2.12626 50.1475 0.680018 47.2335 0.187022C44.3195 -0.305974 41.3243 0.182161 38.7177 1.57487C36.111 2.96758 34.0403 5.18609 32.8303 7.88246C31.6204 10.5788 31.3396 13.6005 32.032 16.4737C26.724 16.2052 21.5319 14.8231 16.7929 12.4172C12.0539 10.0112 7.87403 6.63522 4.52484 2.50852C3.35013 4.5599 2.73287 6.88304 2.73444 9.24696C2.73027 11.4423 3.26901 13.6045 4.30269 15.5413C5.33636 17.478 6.8329 19.1291 8.65905 20.3475C6.53653 20.2897 4.45937 19.7202 2.60423 18.6873V18.85C2.62013 21.9259 3.69798 24.9019 5.65545 27.2746C7.61292 29.6473 10.3298 31.271 13.3467 31.8712C12.1854 32.2246 10.9797 32.4109 9.76585 32.4246C8.92563 32.4148 8.0875 32.3386 7.25928 32.1967C8.11838 34.8426 9.7809 37.155 12.0155 38.812C14.2501 40.4689 16.9456 41.3882 19.727 41.4417C15.0303 45.1373 9.2316 47.1543 3.25528 47.171C2.16716 47.1746 1.07989 47.1093 0 46.9757C6.1018 50.9154 13.2126 53.0068 20.4757 52.998C25.4879 53.05 30.4601 52.1028 35.1021 50.2117C39.7441 48.3206 43.9627 45.5235 47.5115 41.9837C51.0604 38.4439 53.8683 34.2325 55.7713 29.5954C57.6743 24.9583 58.6343 19.9885 58.5951 14.9763C58.5951 14.4229 58.5951 13.8369 58.5951 13.251C61.1495 11.346 63.3526 9.01071 65.1057 6.34976Z"
+                  fill="#252422" />
+              </svg>
+            </a>
+          </div>
+          <div class="spotify-link-container">
+            <a href="https://open.spotify.com/user/11133422812" target="_blank" rel="noopener noreferrer">
+              <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" id="spotify-svg">
+                <path
+                  d="M26.5 0C11.8886 0 0 11.8886 0 26.5C0 41.1114 11.8886 53 26.5 53C41.1114 53 53 41.1114 53 26.5C53 11.8886 41.1114 0 26.5 0ZM38.6569 38.2528C38.5322 38.4309 38.3736 38.5827 38.1902 38.6995C38.0068 38.8162 37.8021 38.8956 37.588 38.9332C37.3738 38.9707 37.1543 38.9656 36.9421 38.9182C36.7299 38.8708 36.5292 38.782 36.3514 38.6569C30.1404 34.291 19.8088 34.0492 12.8326 35.6756C12.6206 35.7248 12.4009 35.7317 12.1862 35.6959C11.9714 35.6602 11.7658 35.5825 11.5811 35.4673C11.3964 35.3521 11.2362 35.2017 11.1096 35.0246C10.9831 34.8475 10.8926 34.6472 10.8435 34.4351C10.7943 34.223 10.7874 34.0034 10.8231 33.7886C10.8589 33.5739 10.9366 33.3683 11.0518 33.1836C11.167 32.9989 11.3174 32.8387 11.4945 32.7121C11.6716 32.5855 11.8719 32.4951 12.084 32.4459C19.7524 30.6704 31.2137 30.9951 38.2528 35.9473C38.6118 36.1996 38.8561 36.5841 38.9318 37.0164C39.0076 37.4487 38.9087 37.8933 38.6569 38.2528ZM41.8899 31.7901C41.7629 31.9667 41.6023 32.1166 41.4174 32.2312C41.2325 32.3458 41.0268 32.4228 40.812 32.4579C40.5973 32.4929 40.3778 32.4854 40.166 32.4356C39.9542 32.3858 39.7543 32.2948 39.5778 32.1677C32.3731 26.9969 23.5221 25.7116 11.7097 28.1231C11.4965 28.1668 11.2769 28.1681 11.0632 28.127C10.8495 28.0858 10.6461 28.0029 10.4645 27.8831C10.2828 27.7633 10.1266 27.6089 10.0046 27.4287C9.88265 27.2485 9.79737 27.0461 9.75366 26.8329C9.70994 26.6198 9.70863 26.4001 9.74981 26.1864C9.79099 25.9728 9.87385 25.7693 9.99366 25.5877C10.1135 25.406 10.2679 25.2498 10.4481 25.1278C10.6283 25.0059 10.8307 24.9206 11.0439 24.8769C23.8202 22.2699 33.4993 23.7274 41.5089 29.4746C41.8657 29.7318 42.1061 30.1198 42.1775 30.5537C42.2489 30.9876 42.1455 31.4322 41.8899 31.7901ZM45.156 23.1113C45.0339 23.2915 44.8774 23.4459 44.6956 23.5656C44.5137 23.6853 44.3101 23.768 44.0962 23.8089C43.8824 23.8498 43.6626 23.8482 43.4494 23.8041C43.2363 23.76 43.0339 23.6743 42.8538 23.5519C33.7213 17.3542 19.8386 17.3244 10.8518 20.5044C10.6464 20.5768 10.4289 20.6081 10.2114 20.5964C9.99403 20.5848 9.78105 20.5304 9.58465 20.4364C9.38825 20.3425 9.21228 20.2107 9.0668 20.0487C8.92131 19.8868 8.80915 19.6977 8.73672 19.4924C8.66429 19.2871 8.63301 19.0695 8.64467 18.8521C8.65633 18.6347 8.7107 18.4217 8.80467 18.2253C8.89864 18.0289 9.03037 17.8529 9.19234 17.7075C9.35432 17.562 9.54337 17.4498 9.74869 17.3774C19.5239 13.9224 34.6719 13.9953 44.7188 20.8091C45.0808 21.0574 45.3299 21.4388 45.4118 21.8701C45.4937 22.3014 45.4018 22.7476 45.156 23.1113Z"
+                  fill="#252422" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="phone-number-container">
+          <p class="number-text">Mobile: +44 7741 249 222</p>
+        </div>
+      </div>
+      <div class="white-logo-link-container">
+        <a href="https://theinfamousgrim.github.io/george-fincher-web-portfolio/" class="home-link">
+          <img src="assets/logos/white-logo.svg" alt="an inverted escher like triangle made up of prisms"
+            class="white-logo-svg" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

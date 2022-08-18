@@ -194,6 +194,27 @@ main {
   }
 }
 
+/* ---------------------------- featured projects --------------------------- */
+
+.featured-proejcts {
+  margin: 0px 2vw;
+}
+
+/* cards hover and focus states */
+.project-cards-container:hover #general-card-title-id h2,
+.project-cards-container:focus #general-card-title-id h2 {
+  transition: color var(--transition-hover) ease;
+  color: var(--black-olive);
+}
+
+.project-cards-container:hover #general-card-title-id,
+.project-cards-container:focus #general-card-title-id {
+  transition: background-color var(--transition-hover) ease;
+  background-color: var(--floral-white);
+  color: var(--black-olive);
+  cursor: pointer;
+}
+
 /* featured portfolio section */
 
 .featured-portfolio {
