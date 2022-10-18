@@ -196,8 +196,23 @@ main {
 
 /* ---------------------------- featured projects --------------------------- */
 
-.featured-proejcts {
+.featured-projects {
   margin: 0px 2vw;
+}
+
+.first-project-container {
+  grid-area: first;
+}
+
+.second-project-container {
+  grid-area: second;
+}
+
+.project-grid-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "first second";
 }
 
 /* cards hover and focus states */
