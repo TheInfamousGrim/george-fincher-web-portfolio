@@ -65,7 +65,7 @@ h3 {
 }
 
 /* navigation for screens below 600px */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .site-header {
     flex-direction: column;
   }
@@ -107,27 +107,6 @@ h3 {
   transition: color var(--transition-hover) ease;
   color: var(--eerie-black);
 }
-
-/* burger menu */
-/* .svg-burger-menu {
-  height: 60px;
-}
-
-.nav-toggle #background-burger {
-  transition: fill var(--transition-hover) ease;
-}
-
-.nav-toggle:hover #background-burger,
-.nav-toggle:focus #background-burger {
-  fill: var(--floral-white);
-}
-#burger-group {
-  position: fixed;
-  top: 15px;
-  right: 25px;
-  cursor: pointer;
-  z-index: 999;
-} */
 
 /* hero img */
 main {
