@@ -113,9 +113,18 @@ main {
   margin: var(--page-margin);
 }
 
+/* -------------------------------------------------------------------------- */
+/*                             hero image section                             */
+/* -------------------------------------------------------------------------- */
+
+.hero-img-section {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-img-container .headshot-img {
   border-radius: var(--content-radius);
-  width: 100%;
+  max-width: 80vw;
 }
 
 .hero-img-container {
