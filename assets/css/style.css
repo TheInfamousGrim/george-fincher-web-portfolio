@@ -52,7 +52,10 @@ h3 {
   color: var(--flame);
 }
 
-/* header and navigation */
+/* -------------------------------------------------------------------------- */
+/*                            header and navigation                           */
+/* -------------------------------------------------------------------------- */
+
 .site-header {
   margin: var(--page-margin);
   display: flex;
